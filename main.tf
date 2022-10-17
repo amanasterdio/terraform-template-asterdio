@@ -2,7 +2,7 @@
 
 terraform {
   required_providers {
-
+        
 
     }
   }
@@ -31,3 +31,12 @@ terraform {
   }  
 
 # You can specify the modules here
+
+module "" {
+    source                     = "path location"
+    providers = {
+        
+    }
+    }
+
+# initliaze terraform after adding new module into the project
